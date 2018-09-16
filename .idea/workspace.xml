@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5ff275c-41dd-4ea1-84cb-e7ded6bb05b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comandsBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/comandsBot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,14 +43,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6" />
-          <entry key="py" value="140" />
-          <entry key="txt" value="813" />
+          <entry key="py" value="469" />
+          <entry key="txt" value="819" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="813" />
-          <entry key="Python" value="146" />
+          <entry key="PLAIN_TEXT" value="819" />
+          <entry key="Python" value="475" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -61,17 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="60">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comandsBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="150">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="e#72#86#0" expanded="true" />
               </folding>
@@ -82,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parsing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="120">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#36#51#0" expanded="true" />
@@ -91,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="105">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -103,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="195">
               <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -136,9 +137,9 @@
         <option value="$PROJECT_DIR$/mainBot.py" />
         <option value="$PROJECT_DIR$/admin.py" />
         <option value="$PROJECT_DIR$/parsing.py" />
-        <option value="$PROJECT_DIR$/comandsBot.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/comandsBot.py" />
         <option value="$PROJECT_DIR$/config.py" />
       </list>
     </option>
@@ -268,14 +269,28 @@
       <option name="project" value="LOCAL" />
       <updated>1537125422464</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Бета версия 0.3.1 Сборка 179&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github.">
+      <created>1537125751806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537125751806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Бета версия 0.3.1 Сборка 180&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github.">
+      <created>1537125962109</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537125962109</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -338,37 +353,12 @@
     <MESSAGE value="Бета версия 0.3.1 Сборка 176&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
     <MESSAGE value="Бета версия 0.3.1 Сборка 177&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
     <MESSAGE value="Бета версия 0.3.1 Сборка 178&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
-    <option name="LAST_COMMIT_MESSAGE" value="Бета версия 0.3.1 Сборка 178&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
+    <MESSAGE value="Бета версия 0.3.1 Сборка 179&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
+    <MESSAGE value="Бета версия 0.3.1 Сборка 180&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
+    <option name="LAST_COMMIT_MESSAGE" value="Бета версия 0.3.1 Сборка 180&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mainBot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parsing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#36#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -383,20 +373,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comandsBot.py">
+    <entry file="file://$PROJECT_DIR$/parsing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#72#86#0" expanded="true" />
+            <element signature="e#36#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainBot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comandsBot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#72#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

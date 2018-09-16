@@ -24,6 +24,8 @@ def messages(message):
         bot.reply_to(message, "Привет, " + message.from_user.username + "! Я только учусь и меня все еще разрабатывают. Не суди строго, если будут ошибки")
     elif message.text == "/key_t" or message.text == "/key_t" + config.referenseBot:
         cmd_admin(message)
+    elif message.text == "/about" or message.text == "/about" + config.referenseBot:
+        bot.send_message(message.chat.id, "version: " + config.version + "build: " + config.build + "\nbuild date: " + config.builddate)
     elif message.text == "/help" or message.text == "/help" + config.referenseBot:
         bot.send_message(message.chat.id, "/replacement - замены в расписании (актуально для всех групп)" +
                                           "\n/schedule - расписание пар" +
