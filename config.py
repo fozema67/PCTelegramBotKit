@@ -9,4 +9,3 @@ schedule = [ 'None', '09:00 - 09:45, 09:50 - 10:35', '10:55 - 11:40, 11:45 - 12:
 
 adminUserId = 377369508
 adminUserId2 = 435662528
-exampleID = 112233445
