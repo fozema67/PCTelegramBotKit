@@ -4,7 +4,6 @@
 # from flask import Flask, request
 import logging
 
-import pyowm
 import telebot
 
 import config
@@ -14,7 +13,6 @@ from admin import cmd_admin
 # from bs4 import BeautifulSoup
 
 bot = telebot.TeleBot(config.tokenTel)
-owm = pyowm.OWM(config.APIKeyOWM)
 
 logger = telebot.logger
 telebot.logger.setLevel(logging.DEBUG)
