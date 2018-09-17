@@ -62,7 +62,10 @@ def messages(message):
         for i in range(1, 9):
             bot.send_message(message.chat.id, "Lesson " + str(i) + ": " + str(parsing.pars.saturday185[i]))
     elif message.text == "/185all_week" or message.text == "/185all_week" + config.referenseBot:
-        bot.send_message(message.chat.id, "Monday: " + str(parsing.pars.monday1171[1::2]))
+
+        for i in range(1, 4):
+            monday185 = parsing.pars.monday1171[1::2]
+            bot.send_message(message.chat.id, "Monday: " + str(i) + ". " + str(monday185[i]))
     else:
         bot.send_message(message.chat.id, "Я тебя не понимаю, используй /help")
 
