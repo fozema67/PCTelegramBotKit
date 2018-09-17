@@ -35,6 +35,7 @@ def messages(message):
                                           "\n/185thursday - расписание на четверг 185 группа" +
                                           "\n/185friday - расписание на пятницу 185 группа" +
                                           "\n/185saturday - расписание на субботу 185 группа" +
+                                          "\n/185all_week - Расписание занятий на всю неделю для 185 группы" 
                                           "\n/about - О боте")
     elif message.text == "/replacement":
         bot.send_message(message.chat.id, "Замены в расписании находятся на этом сайте:")
@@ -42,24 +43,26 @@ def messages(message):
     elif message.text == "/schedule" or message.text == "/schedule" + config.referenseBot:
         for i in range(0, 5):
             bot.send_message(message.chat.id,  "Pair " + str(i+1) + ": " + str(config.schedule[i+1]))
-    elif message.text == '/185monday' or message.text == "/185monday" + config.referenseBot:
+    elif message.text == "/185monday" or message.text == "/185monday" + config.referenseBot:
         for i in range(1, 9):
             bot.send_message(message.chat.id, "Lesson " + str(i) + ": " + str(parsing.pars.monday185[i]))
-    elif message.text == '/185tuesday' or message.text == "/185tuesday" + config.referenseBot:
+    elif message.text == "/185tuesday" or message.text == "/185tuesday" + config.referenseBot:
         for i in range(1, 9):
             bot.send_message(message.chat.id, "Lesson " + str(i) + ": " + str(parsing.pars.tuesday185[i]))
-    elif message.text == '/185wednesday' or message.text == "/185wednesday" + config.referenseBot:
+    elif message.text == "/185wednesday" or message.text == "/185wednesday" + config.referenseBot:
         for i in range(1, 9):
             bot.send_message(message.chat.id, "Lesson " + str(i) + ": " + str(parsing.pars.wednesday185[i]))
-    elif message.text == '/185thursday' or message.text == "/185thursday" + config.referenseBot:
+    elif message.text == "/185thursday" or message.text == "/185thursday" + config.referenseBot:
         for i in range(1, 9):
             bot.send_message(message.chat.id, "Lesson " + str(i) + ": " + str(parsing.pars.thursday185[i]))
-    elif message.text == '/185friday' or message.text == "/185friday" + config.referenseBot:
+    elif message.text == "/185friday" or message.text == "/185friday" + config.referenseBot:
         for i in range(1, 9):
             bot.send_message(message.chat.id, "Lesson " + str(i) + ": " + str(parsing.pars.friday185[i]))
-    elif message.text == '/185saturday' or message.text == "/185saturday" + config.referenseBot:
+    elif message.text == "/185saturday" or message.text == "/185saturday" + config.referenseBot:
         for i in range(1, 9):
             bot.send_message(message.chat.id, "Lesson " + str(i) + ": " + str(parsing.pars.saturday185[i]))
+    elif message.text == "/185all_week" or message.text == "/185all_week" + config.referenseBot:
+        bot.send_message(message.chat.id, "Monday: " + str(parsing.pars.monday1171[1,3,5,7]))
     else:
         bot.send_message(message.chat.id, "Я тебя не понимаю, используй /help")
 
