@@ -62,21 +62,24 @@ def messages(message):
         for i in range(1, 9):
             bot.send_message(message.chat.id, "Lesson " + str(i) + ": " + str(parsing.pars.saturday185[i]))
     elif message.text == "/185all_week" or message.text == "/185all_week" + config.referenseBot:
-        for i in range(1, 4):
+        for i in range(1, 5):
             monday1185 = parsing.pars.monday185[::2]
-            tuesday1185 = parsing.pars.tuesday185[::2]
-            wednesday1185 = parsing.pars.wednesday185[::2]
-            thursday1185 = parsing.pars.thursday185[::2]
-            friday1185 = parsing.pars.friday185[::2]
-            saturday1185 = parsing.pars.saturday185[::2]
-
             bot.send_message(message.chat.id, "Monday: " + str(i) + ". " + str(monday1185[i]))
+        for i in range(1, 5):
+            tuesday1185 = parsing.pars.tuesday185[::2]
             bot.send_message(message.chat.id, "Tuesday: " + str(i) + ". " + str(tuesday1185[i]))
+        for i in range(1, 5):
+            wednesday1185 = parsing.pars.wednesday185[::2]
             bot.send_message(message.chat.id, "Wednesday: " + str(i) + ". " + str(wednesday1185[i]))
+        for i in range(1, 5):
+            thursday1185 = parsing.pars.thursday185[::2]
             bot.send_message(message.chat.id, "Thursday: " + str(i) + ". " + str(thursday1185[i]))
+        for i in range(1, 5):
+            friday1185 = parsing.pars.friday185[::2]
             bot.send_message(message.chat.id, "Friday: " + str(i) + ". " + str(friday1185[i]))
+        for i in range(1, 5):
+            saturday1185 = parsing.pars.saturday185[::2]
             bot.send_message(message.chat.id, "Saturday: " + str(i) + ". " + str(saturday1185[i]))
-
     else:
         bot.send_message(message.chat.id, "Я тебя не понимаю, используй /help")
 
