@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5ff275c-41dd-4ea1-84cb-e7ded6bb05b8" name="Default Changelist" comment="Бета версия 0.3.2 Сборка 191&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Исправлен баг парсинга сайта.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f5ff275c-41dd-4ea1-84cb-e7ded6bb05b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comandsBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/comandsBot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,12 +48,12 @@
         <counts>
           <entry key="Python Console" value="6" />
           <entry key="py" value="1440" />
-          <entry key="txt" value="908" />
+          <entry key="txt" value="909" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="908" />
+          <entry key="PLAIN_TEXT" value="909" />
           <entry key="Python" value="1446" />
         </counts>
       </usages-collector>
@@ -78,8 +75,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comandsBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+            <state relative-caret-position="88">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#72#86#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,11 +108,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="61">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1538061660602" expanded="true" signature="359:372" ph="..." />
+                <marker date="1538062066295" expanded="true" signature="403:416" ph="..." />
               </folding>
             </state>
           </provider>
@@ -144,8 +144,8 @@
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/comandsBot.py" />
-        <option value="$PROJECT_DIR$/admin.py" />
         <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/admin.py" />
       </list>
     </option>
   </component>
@@ -402,12 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537207781323</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Бета версия 0.3.2 Сборка 191&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Исправлен баг парсинга сайта.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github.">
+      <created>1538061772641</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1538061772641</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -423,9 +429,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32993197" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37585035" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37585035" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32993197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -504,23 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parsing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="253" column="43" selection-start-line="253" selection-start-column="43" selection-end-line="253" selection-end-column="43" />
-          <folding>
-            <element signature="e#36#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comandsBot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -535,13 +524,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/parsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="253" column="43" selection-start-line="253" selection-start-column="43" selection-end-line="253" selection-end-column="43" />
+          <folding>
+            <element signature="e#36#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comandsBot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#72#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        <state relative-caret-position="61">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1538061660602" expanded="true" signature="359:372" ph="..." />
+            <marker date="1538062066295" expanded="true" signature="403:416" ph="..." />
           </folding>
         </state>
       </provider>
