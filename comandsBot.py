@@ -49,7 +49,7 @@ def messages(message):
         bot.send_message(message.chat.id, "Замены в расписании находятся на этом сайте:")
         bot.send_message(message.chat.id, config.replacement)
     elif message.text == "/schedule" or message.text == "/schedule" + config.referenseBot:
-        for i in range(0, 5):
+        for i in range(0, 4):
             bot.send_message(message.chat.id,  "Pair " + str(i+1) + ": " + str(config.schedule[i+1]))
     elif message.text == "/185monday" or message.text == "/185monday" + config.referenseBot:
         for i in range(1, 9):
