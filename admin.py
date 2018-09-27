@@ -12,7 +12,7 @@ idAdmin2 = config.adminUserId2
 logger = telebot.logger
 telebot.logger.setLevel(logging.DEBUG)
 
-
+@bot.message_handler(content_types=["text"])
 def cmd_admin(message):
     if message.from_user.id == idAdmin or message.from_user.id == idAdmin2:
         def main_admin(message):
