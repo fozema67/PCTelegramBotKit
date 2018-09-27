@@ -8,9 +8,12 @@ import telebot
 
 import config
 import parsing
-from admin import cmd_admin
+from admin import main_admin
 
 # from bs4 import BeautifulSoup
+
+idAdmin = config.adminUserId
+idAdmin2 = config.adminUserId2
 
 bot = telebot.TeleBot(config.tokenTel)
 
@@ -23,7 +26,11 @@ def messages(message):
     if message.text == "/start" or message.text == "/start" + config.referenseBot:
         bot.reply_to(message, "Привет, " + message.from_user.username + "! Я только учусь и меня все еще разрабатывают. Не суди строго, если будут ошибки")
     elif message.text == "/admin" or message.text == "/admin" + config.referenseBot:
-        cmd_admin(message)
+        if message.from_user.id == idAdmin or message.from_user.id == idAdmin2:
+            main_admin(message)
+        else:
+            bot.send_message(message.from_user.id,
+                             "Я тебе не дам доступ к панели администратора! Ты не fozema67 и не viper47!")
     elif message.text == "/about" or message.text == "/about" + config.referenseBot:
         bot.send_message(message.chat.id, "version: " + config.version + " build: " + config.build + "\nbuild date: " + config.builddate)
     elif message.text == "/help" or message.text == "/help" + config.referenseBot:
