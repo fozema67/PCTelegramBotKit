@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5ff275c-41dd-4ea1-84cb-e7ded6bb05b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comandsBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/comandsBot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +47,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6" />
-          <entry key="py" value="1608" />
-          <entry key="txt" value="913" />
+          <entry key="py" value="1609" />
+          <entry key="txt" value="917" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="913" />
-          <entry key="Python" value="1614" />
+          <entry key="PLAIN_TEXT" value="917" />
+          <entry key="Python" value="1615" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -76,11 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comandsBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="29" column="113" selection-start-line="29" selection-start-column="113" selection-end-line="29" selection-end-column="113" />
-              <folding>
-                <element signature="e#72#86#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="124">
+              <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -88,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parsing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3795">
-              <caret line="253" column="43" selection-start-line="253" selection-start-column="43" selection-end-line="253" selection-end-column="43" />
+            <state relative-caret-position="165">
+              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="e#36#51#0" expanded="true" />
               </folding>
@@ -111,6 +107,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -427,11 +426,25 @@
       <option name="project" value="LOCAL" />
       <updated>1538062840587</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Бета версия 0.3.2 Сборка 194&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Исправлен баг парсинга сайта.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github.">
+      <created>1538063453325</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1538063453325</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Бета версия 0.3.2 Сборка 195&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Исправлен баг парсинга сайта.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github.">
+      <created>1538063717090</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1538063717090</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
@@ -512,7 +525,9 @@
     <MESSAGE value="Бета версия 0.3.1 Сборка 190&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
     <MESSAGE value="Бета версия 0.3.2 Сборка 191&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Исправлен баг парсинга сайта.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
     <MESSAGE value="Бета версия 0.3.2 Сборка 193&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Исправлен баг парсинга сайта.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
-    <option name="LAST_COMMIT_MESSAGE" value="Бета версия 0.3.2 Сборка 193&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Исправлен баг парсинга сайта.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
+    <MESSAGE value="Бета версия 0.3.2 Сборка 194&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Исправлен баг парсинга сайта.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
+    <MESSAGE value="Бета версия 0.3.2 Сборка 195&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Исправлен баг парсинга сайта.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
+    <option name="LAST_COMMIT_MESSAGE" value="Бета версия 0.3.2 Сборка 195&#10;&#10;- Бот переехал на новый адрес. &#10;- Добавлены команды для 185 группы.&#10;- Добавлена поддержка еще нескольких групп 1-го курса.&#10;- Удалены лишние команды.&#10;- Удалены лишние модули.&#10;- Устранены баги и внедрены различные улучшения связанные с отзывчивостью бота.&#10;- Добавлен модуль администратора и некоторые важные команды.&#10;- Скорость парсинга сайта spbkit.edu.ru возросла с 13 сек до 8 сек.&#10;- Теперь бот работает на своем сервере, а не локальном.&#10;- Исправлен баг парсинга сайта.&#10;- Код бота стал читабельнее. Скоро исходники появятся в открытом доступе на Github." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -530,19 +545,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainBot.py">
+    <entry file="file://$PROJECT_DIR$/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parsing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3795">
-          <caret line="253" column="43" selection-start-line="253" selection-start-column="43" selection-end-line="253" selection-end-column="43" />
+        <state relative-caret-position="289">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="e#36#51#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,20 +562,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.py">
+    <entry file="file://$PROJECT_DIR$/parsing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="165">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="e#36#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainBot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comandsBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="29" column="113" selection-start-line="29" selection-start-column="113" selection-end-line="29" selection-end-column="113" />
-          <folding>
-            <element signature="e#72#86#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="124">
+          <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
         </state>
       </provider>
     </entry>
