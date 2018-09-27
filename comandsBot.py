@@ -27,7 +27,8 @@ def messages(message):
         bot.reply_to(message, "Привет, " + message.from_user.username + "! Я только учусь и меня все еще разрабатывают. Не суди строго, если будут ошибки")
     elif message.text == "/admin" or message.text == "/admin" + config.referenseBot:
         if message.from_user.id == idAdmin or message.from_user.id == idAdmin2:
-            main_admin(message)
+            bot.send_message(message.from_user.id, "Ты в панели администратора. Можешь воспользоваться /helpAdmin")
+            main_admin()
         else:
             bot.send_message(message.from_user.id,
                              "Я тебе не дам доступ к панели администратора! Ты не fozema67 и не viper47!")
