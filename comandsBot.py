@@ -33,7 +33,7 @@ def messages(message):
             bot.send_message(message.from_user.id,
                              "Я тебе не дам доступ к панели администратора! Ты не fozema67 и не viper47!")
     elif message.text == "/about" or message.text == "/about" + config.referenseBot:
-        bot.send_message(message.chat.id, "version: " + config.version + " build: " + config.build + "\nbuild date: " + config.builddate + "\nAuthor: " + config.author + "Github:"+ config.authorGit)
+        bot.send_message(message.chat.id, "version: " + config.version + " build: " + config.build + "\nbuild date: " + config.builddate + "\nAuthor: " + config.author + "\nGithub:"+ config.authorGit)
     elif message.text == "/help" or message.text == "/help" + config.referenseBot:
         bot.send_message(message.chat.id, "/replacement - замены в расписании (актуально для всех групп)" +
                                           "\n/schedule - расписание пар" +
