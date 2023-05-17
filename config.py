@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-tokenTel = '508307190:AAHk6zzXnaCeyvKvxFOfHElCNpX7fSGcLYw'
+tokenTel = 'YOUR_TOKEN_HERE'
 
 referenseBot = '@datatable_fozema67Bot'
 version = '0.3.2'
